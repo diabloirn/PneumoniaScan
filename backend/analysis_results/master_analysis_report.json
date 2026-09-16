@@ -1,0 +1,34 @@
+{
+  "analysis_timestamp": "2025-09-13T16:30:04.716741",
+  "analysis_modules": [
+    {
+      "script": "data_analysis.py",
+      "description": "Data Analysis",
+      "success": false,
+      "timestamp": "2025-09-13T16:30:06.502557"
+    },
+    {
+      "script": "model_analysis.py",
+      "description": "Model Analysis",
+      "success": false,
+      "timestamp": "2025-09-13T16:30:12.292277"
+    },
+    {
+      "script": "threshold_analysis.py",
+      "description": "Threshold Analysis",
+      "success": false,
+      "timestamp": "2025-09-13T16:30:18.140420"
+    },
+    {
+      "script": "misclassified_analysis.py",
+      "description": "Misclassified Samples Analysis",
+      "success": false,
+      "timestamp": "2025-09-13T16:30:24.224182"
+    }
+  ],
+  "summary": {
+    "total_modules": 4,
+    "successful_modules": 0,
+    "failed_modules": 4
+  }
+}
