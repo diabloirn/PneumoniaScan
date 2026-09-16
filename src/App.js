@@ -45,7 +45,7 @@ ChartJS.register(
   Legend
 );
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:8000";
 
 // Helper for clinical confidence interpretation
 const getClinicalInterpretation = (score, prediction) => {
