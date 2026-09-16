@@ -1,10 +1,6 @@
 {
-  "services": {
-    "frontend": {
-      "root": ".",
-      "framework": "create-react-app"
-    }
-  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/(.*)",
