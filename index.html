@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#120408" />
+    <meta
+      name="description"
+      content="PneumoScan Clinical PACS & AI Pulmonary Diagnostic Suite"
+    />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>PneumoScan PACS | Clinical Diagnostic Suite &amp; 3D CT Tomography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+            colors: {
+              burgundy: {
+                950: '#140307',
+                900: '#24060d',
+                850: '#360914',
+                800: '#4a0d1c',
+                700: '#661226',
+                600: '#851832',
+                500: '#a61e3e',
+                border: '#4a0d1c'
+              },
+              cream: {
+                50: '#fefdfb',
+                100: '#fcf8f1',
+                200: '#f7ede0',
+                300: '#eedcc6',
+                400: '#dfc3a1',
+                500: '#cb9f74',
+                text: '#fdf8f0',
+                muted: '#e2cfba'
+              },
+              gold: {
+                brass: '#c5a059',
+                antique: '#d4af37',
+                warm: '#e6ca65'
+              },
+              hospital: {
+                950: '#120408',
+                900: '#1c070d',
+                850: '#270a12',
+                800: '#380e1a',
+                700: '#4d1424',
+                600: '#681c32',
+                border: '#4a1525',
+                teal: '#06b6d4',
+                emerald: '#10b981',
+                alert: '#f43f5e',
+                amber: '#f59e0b',
+                ice: '#fbf5ee'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        background: radial-gradient(circle at 10% 10%, rgba(102, 18, 38, 0.45) 0%, transparent 40%),
+                    radial-gradient(circle at 90% 15%, rgba(20, 33, 61, 0.5) 0%, transparent 45%),
+                    radial-gradient(circle at 50% 90%, rgba(74, 13, 28, 0.4) 0%, transparent 50%),
+                    #120408;
+        color: #fdf8f0;
+        font-family: 'Inter', system-ui, sans-serif;
+        overflow-x: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1c070d;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a1525;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #d4af37;
+      }
+      .medical-grid {
+        background-image: linear-gradient(to right, rgba(212, 175, 55, 0.04) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(212, 175, 55, 0.04) 1px, transparent 1px);
+        background-size: 32px 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
